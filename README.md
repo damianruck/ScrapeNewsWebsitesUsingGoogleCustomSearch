@@ -4,6 +4,20 @@ Python script for scraping news stories from news websites which contain keyword
 
 ## Instructions
 
+After Cloning this repo to your local machine, run the following to initialize the Conda environment
+
+'''
+conda create -n scrape-google pandas numpy matplotlib scikit-learn jupyter notebook
+conda activate scrape-google
+python3 -m ipykernel install --user --name=scrape-google
+'''
+
+Then install the additional software dependencies using:
+
+'''
+pip install -r requirements.txt 
+'''
+
 Before you use this code, you will need to create a GoogleAPI account and set up Google Custom Search. I found this video helpful: https://www.youtube.com/watch?v=IBhdLRheKyM
 
 For each of the websites you are interested in, certain information must be stored in the file "lookupWebsite.csv". First, the name of the website which is the text you will refer to in Python script. Second, you must include the GoogleCustomSearch code that links your code to the GoogleCustomSearch API (see the above video).
