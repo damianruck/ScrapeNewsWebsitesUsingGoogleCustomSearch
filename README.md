@@ -18,7 +18,9 @@ Then install the additional software dependencies using:
 pip install -r requirements.txt 
 ```
 
-Before you use this code, you will need to create a GoogleAPI account and set up Google Custom Search. I found this video helpful: https://www.youtube.com/watch?v=IBhdLRheKyM
+Before you use this code, you will need to create a GoogleAPI account and set up Google Custom Search. I found this video helpful: https://www.youtube.com/watch?v=IBhdLRheKyM 
+
+A more recent article on the subject of using automated Google Custom Search in Python is here: https://www.thepythoncode.com/article/use-google-custom-search-engine-api-in-python
 
 For each of the websites you are interested in, certain information must be stored in the file "lookupWebsite.csv". First, the name of the website which is the text you will refer to in Python script. Second, you must include the GoogleCustomSearch code that links your code to the GoogleCustomSearch API (see the above video).
 
